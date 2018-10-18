@@ -112,8 +112,8 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: #000;
+    background: #fff no-repeat center center;
     background-size: cover;
 }
 
@@ -167,7 +167,7 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-height: 300px;
 }
 
 .site-description {
@@ -266,7 +266,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
 }
 
@@ -298,7 +298,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     align-items: center;
     margin: 0;
     padding: 10px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
 }
 
@@ -308,7 +308,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: #000;
 }
 
 .social-link-fb svg {
@@ -354,7 +354,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .rss-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
-    fill: #fff;
+    fill: #000;
 }
 
 @media (max-width: 700px) {
