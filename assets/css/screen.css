@@ -156,6 +156,7 @@ body {
     min-height: 200px;
     max-height: 450px;
     text-align: center;
+    position: relative;
 }
 
 .site-title {
@@ -180,12 +181,26 @@ body {
     opacity: 0.8;
 }
 
+.site-description::before,
+.site-description::after {
+    content: '\25CF';
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
 @media (max-width: 500px) {
     .site-title {
         font-size: 3rem;
     }
     .site-description {
         font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 795px) {
+    .site-description {
+        position: absolute;
+        bottom: 11rem;
     }
 }
 
